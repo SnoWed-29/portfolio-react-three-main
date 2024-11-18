@@ -13,7 +13,7 @@ function App() {
         <div className="w-[90vw] md:h-screen p-4 flex flex-col items-start md:items-center justify-center mx-auto">
           <div className="grid grid-cols-3">
             <Sidebar />
-            <div className="col-span-2">
+            <div className="col-span-3 md:col-span-2">
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />

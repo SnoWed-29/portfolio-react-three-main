@@ -12,7 +12,7 @@ function Home() {
     <>
       <div className="col-span-3 md:col-span-2 flex flex-col justify-around p-5">
         <Navbar />
-        <p className="text-xl leading-10 font-regular mb-6">
+        <p className="text-xl leading-10 font-regular my-16">
           Hi I’m&nbsp;
           <UnderlineTxt text="Haitham" />, based in Casablanca, Morocco. I am a
           dedicated web developer with expertise in Laravel/PHP and React.js. I
